@@ -2,7 +2,7 @@
 
 ![alt text](https://i.imgur.com/S4bGAIy.png)
 
-Hi! This is my Playground project made for WWDC18 Scholarship.
+Hi! This is my Playground project made for WWDC18 Scholarship.   
 Youtube demonstration: https://youtu.be/HvdIz6x3TTc
 
 ## About
