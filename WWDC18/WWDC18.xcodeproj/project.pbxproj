@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20011CB20642BC700A41632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20011CA20642BC700A41632 /* AppDelegate.swift */; };
+		C20011D520643E7200A41632 /* LightStageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20011D420643E7200A41632 /* LightStageLayer.swift */; };
+		C21DA40F20667C0E00CC5F42 /* WateringCan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21DA40E20667C0E00CC5F42 /* WateringCan.swift */; };
+		C21DA41920668D7000CC5F42 /* MainLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21DA41820668D7000CC5F42 /* MainLayer.swift */; };
+		C227099720670D38007A9A82 /* Tree.png in Resources */ = {isa = PBXBuildFile; fileRef = C227099520670D38007A9A82 /* Tree.png */; };
+		C227099B20670D86007A9A82 /* Watering can filled out.png in Resources */ = {isa = PBXBuildFile; fileRef = C227099A20670D85007A9A82 /* Watering can filled out.png */; };
+		C242F4C2206EB7DF00AE43D5 /* BackgroundMusic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C2578F60206E9481008E155A /* BackgroundMusic.m4a */; };
+		C242F4D0206EE4C400AE43D5 /* Apple tree.png in Resources */ = {isa = PBXBuildFile; fileRef = C242F4CF206EE4C400AE43D5 /* Apple tree.png */; };
+		C242F4D8206EE7C600AE43D5 /* Foton.png in Resources */ = {isa = PBXBuildFile; fileRef = C242F4D7206EE7C600AE43D5 /* Foton.png */; };
+		C242F4DE206EEC1200AE43D5 /* Sparkling.sks in Resources */ = {isa = PBXBuildFile; fileRef = C242F4DD206EEC1200AE43D5 /* Sparkling.sks */; };
+		C25B7209206450920084E156 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = C25B7208206450920084E156 /* Sun.png */; };
+		C25B720B206450C50084E156 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = C25B720A206450C50084E156 /* Background.png */; };
+		C25B721020656B450084E156 /* Fish.png in Resources */ = {isa = PBXBuildFile; fileRef = C25B720C20656B440084E156 /* Fish.png */; };
+		C25B721120656B450084E156 /* Flower.png in Resources */ = {isa = PBXBuildFile; fileRef = C25B720D20656B440084E156 /* Flower.png */; };
+		C25B721320656B450084E156 /* Watering can.png in Resources */ = {isa = PBXBuildFile; fileRef = C25B720F20656B450084E156 /* Watering can.png */; };
+		C25B7216206577FB0084E156 /* LightScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B7215206577FB0084E156 /* LightScene.swift */; };
+		C295A28E2065ADC000F16ECA /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295A28D2065ADC000F16ECA /* Tree.swift */; };
+		C295A2902065B41600F16ECA /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295A28F2065B41600F16ECA /* Ocean.swift */; };
+		C295A2922065B48600F16ECA /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295A2912065B48600F16ECA /* Background.swift */; };
+		C2A7ABDF2073C88300CAE077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A7ABDE2073C88300CAE077 /* Assets.xcassets */; };
+		C2BF0BC6206BD5C50034C1F6 /* DarkStageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BF0BC5206BD5C50034C1F6 /* DarkStageContainer.swift */; };
+		C2BF0BCA206C030E0034C1F6 /* Process - dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BF0BC7206C030D0034C1F6 /* Process - dark.png */; };
+		C2BF0BCB206C030E0034C1F6 /* Cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BF0BC8206C030D0034C1F6 /* Cloud.png */; };
+		C2BF0BCE206C0AFB0034C1F6 /* Kelvin Cycle.png in Resources */ = {isa = PBXBuildFile; fileRef = C2BF0BCD206C0AFB0034C1F6 /* Kelvin Cycle.png */; };
+		C2C5C55A2061A81A008DE5D7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C5592061A81A008DE5D7 /* GameViewController.swift */; };
+		C2C5C55D2061A81A008DE5D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C5C55B2061A81A008DE5D7 /* Main.storyboard */; };
+		C2C5C58020632058008DE5D7 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C57F20632058008DE5D7 /* MainScene.swift */; };
+		C2C5C582206320D4008DE5D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C581206320D4008DE5D7 /* Constants.swift */; };
+		C2C5C58420632434008DE5D7 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C58320632434008DE5D7 /* GameObject.swift */; };
+		C2C5C586206326AB008DE5D7 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C585206326AB008DE5D7 /* Protocols.swift */; };
+		C2C5C58820632904008DE5D7 /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C58720632904008DE5D7 /* Sun.swift */; };
+		C2C5C58C20633298008DE5D7 /* PhaseContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C58B20633298008DE5D7 /* PhaseContainer.swift */; };
+		C2C5C58E20634FA2008DE5D7 /* LightStageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C58D20634FA2008DE5D7 /* LightStageContainer.swift */; };
+		C2C5C5912063513C008DE5D7 /* MessagesValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5C5902063513C008DE5D7 /* MessagesValues.swift */; };
+		C2DBE2DF206C3A350058053D /* FinalScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DBE2DE206C3A350058053D /* FinalScene.swift */; };
+		C2DBE2E1206C3A770058053D /* FinalLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DBE2E0206C3A770058053D /* FinalLayer.swift */; };
+		C2DBE2E3206C693D0058053D /* FinalStageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DBE2E2206C693D0058053D /* FinalStageContainer.swift */; };
+		C2DBE2EA206C7D790058053D /* Process - light.png in Resources */ = {isa = PBXBuildFile; fileRef = C2DBE2E9206C7D790058053D /* Process - light.png */; };
+		C2DBE2EC206D6E220058053D /* Fish2.png in Resources */ = {isa = PBXBuildFile; fileRef = C2DBE2EB206D6E210058053D /* Fish2.png */; };
+		C2DBE2EE206D723A0058053D /* InitialLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DBE2ED206D723A0058053D /* InitialLayer.swift */; };
+		C2DBE2F2206D85390058053D /* InitialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DBE2F1206D85390058053D /* InitialScene.swift */; };
+		C2DBE2F5206D8D020058053D /* Background - Initial.png in Resources */ = {isa = PBXBuildFile; fileRef = C2DBE2F4206D8D010058053D /* Background - Initial.png */; };
+		C2E3C33D206EF01400152362 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E3C33C206EF01400152362 /* AudioManager.swift */; };
+		C2E565B220688752006DDAF5 /* WaterMolecule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E565B120688752006DDAF5 /* WaterMolecule.swift */; };
+		C2E565BC206888D9006DDAF5 /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E565B8206888D9006DDAF5 /* O.png */; };
+		C2E565BE206888D9006DDAF5 /* H.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E565BA206888D9006DDAF5 /* H.png */; };
+		C2E565C120688946006DDAF5 /* O2.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E565BF20688946006DDAF5 /* O2.png */; };
+		C2E565C220688946006DDAF5 /* CO2.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E565C020688946006DDAF5 /* CO2.png */; };
+		C2E565C5206889B4006DDAF5 /* CarbonDioxide.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E565C4206889B4006DDAF5 /* CarbonDioxide.swift */; };
+		C2E565C720688B8F006DDAF5 /* Foton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E565C620688B8F006DDAF5 /* Foton.swift */; };
+		C2E565CF2069F158006DDAF5 /* PhotosynthesisDrawing.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E565CE2069F158006DDAF5 /* PhotosynthesisDrawing.png */; };
+		C2E565D32069F264006DDAF5 /* LeaveScene.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E565D22069F264006DDAF5 /* LeaveScene.png */; };
+		C2E565D7206AB4C5006DDAF5 /* DarkScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E565D6206AB4C5006DDAF5 /* DarkScene.swift */; };
+		C2E565D9206AB50C006DDAF5 /* DarkStageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E565D8206AB50C006DDAF5 /* DarkStageLayer.swift */; };
+		C2E565DC206AC5D9006DDAF5 /* Tree water.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E565DB206AC5D8006DDAF5 /* Tree water.png */; };
+		C2E565ED206B258C006DDAF5 /* Next.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E565EC206B258C006DDAF5 /* Next.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C20011CA20642BC700A41632 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C20011D420643E7200A41632 /* LightStageLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightStageLayer.swift; sourceTree = "<group>"; };
+		C21DA40E20667C0E00CC5F42 /* WateringCan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringCan.swift; sourceTree = "<group>"; };
+		C21DA41820668D7000CC5F42 /* MainLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLayer.swift; sourceTree = "<group>"; };
+		C227099520670D38007A9A82 /* Tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tree.png; sourceTree = "<group>"; };
+		C227099A20670D85007A9A82 /* Watering can filled out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Watering can filled out.png"; path = "WWDC18/Resources/main scenario/Watering can filled out.png"; sourceTree = SOURCE_ROOT; };
+		C242F4CF206EE4C400AE43D5 /* Apple tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Apple tree.png"; sourceTree = "<group>"; };
+		C242F4D7206EE7C600AE43D5 /* Foton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Foton.png; sourceTree = "<group>"; };
+		C242F4DD206EEC1200AE43D5 /* Sparkling.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Sparkling.sks; sourceTree = "<group>"; };
+		C2578F60206E9481008E155A /* BackgroundMusic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BackgroundMusic.m4a; sourceTree = "<group>"; };
+		C25B7208206450920084E156 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		C25B720A206450C50084E156 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		C25B720C20656B440084E156 /* Fish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fish.png; sourceTree = "<group>"; };
+		C25B720D20656B440084E156 /* Flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flower.png; sourceTree = "<group>"; };
+		C25B720F20656B450084E156 /* Watering can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Watering can.png"; sourceTree = "<group>"; };
+		C25B7215206577FB0084E156 /* LightScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightScene.swift; sourceTree = "<group>"; };
+		C295A28D2065ADC000F16ECA /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		C295A28F2065B41600F16ECA /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
+		C295A2912065B48600F16ECA /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		C2A7ABDE2073C88300CAE077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = WWDC18/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		C2BF0BC5206BD5C50034C1F6 /* DarkStageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkStageContainer.swift; sourceTree = "<group>"; };
+		C2BF0BC7206C030D0034C1F6 /* Process - dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Process - dark.png"; sourceTree = "<group>"; };
+		C2BF0BC8206C030D0034C1F6 /* Cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud.png; sourceTree = "<group>"; };
+		C2BF0BCD206C0AFB0034C1F6 /* Kelvin Cycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Kelvin Cycle.png"; sourceTree = "<group>"; };
+		C2C5C54E2061A81A008DE5D7 /* WWDC18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC18.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C5C5592061A81A008DE5D7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C2C5C55C2061A81A008DE5D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2C5C5632061A81A008DE5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C5C57F20632058008DE5D7 /* MainScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		C2C5C581206320D4008DE5D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C2C5C58320632434008DE5D7 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		C2C5C585206326AB008DE5D7 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		C2C5C58720632904008DE5D7 /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
+		C2C5C58B20633298008DE5D7 /* PhaseContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseContainer.swift; sourceTree = "<group>"; };
+		C2C5C58D20634FA2008DE5D7 /* LightStageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightStageContainer.swift; sourceTree = "<group>"; };
+		C2C5C5902063513C008DE5D7 /* MessagesValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesValues.swift; sourceTree = "<group>"; };
+		C2DBE2DE206C3A350058053D /* FinalScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScene.swift; sourceTree = "<group>"; };
+		C2DBE2E0206C3A770058053D /* FinalLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalLayer.swift; sourceTree = "<group>"; };
+		C2DBE2E2206C693D0058053D /* FinalStageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalStageContainer.swift; sourceTree = "<group>"; };
+		C2DBE2E9206C7D790058053D /* Process - light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Process - light.png"; sourceTree = "<group>"; };
+		C2DBE2EB206D6E210058053D /* Fish2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fish2.png; sourceTree = "<group>"; };
+		C2DBE2ED206D723A0058053D /* InitialLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialLayer.swift; sourceTree = "<group>"; };
+		C2DBE2F1206D85390058053D /* InitialScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScene.swift; sourceTree = "<group>"; };
+		C2DBE2F4206D8D010058053D /* Background - Initial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background - Initial.png"; sourceTree = "<group>"; };
+		C2E3C33C206EF01400152362 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		C2E565B120688752006DDAF5 /* WaterMolecule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterMolecule.swift; sourceTree = "<group>"; };
+		C2E565B8206888D9006DDAF5 /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
+		C2E565BA206888D9006DDAF5 /* H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H.png; sourceTree = "<group>"; };
+		C2E565BF20688946006DDAF5 /* O2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O2.png; sourceTree = "<group>"; };
+		C2E565C020688946006DDAF5 /* CO2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CO2.png; sourceTree = "<group>"; };
+		C2E565C4206889B4006DDAF5 /* CarbonDioxide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonDioxide.swift; sourceTree = "<group>"; };
+		C2E565C620688B8F006DDAF5 /* Foton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foton.swift; sourceTree = "<group>"; };
+		C2E565CE2069F158006DDAF5 /* PhotosynthesisDrawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhotosynthesisDrawing.png; sourceTree = "<group>"; };
+		C2E565D22069F264006DDAF5 /* LeaveScene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeaveScene.png; sourceTree = "<group>"; };
+		C2E565D6206AB4C5006DDAF5 /* DarkScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkScene.swift; sourceTree = "<group>"; };
+		C2E565D8206AB50C006DDAF5 /* DarkStageLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkStageLayer.swift; sourceTree = "<group>"; };
+		C2E565DB206AC5D8006DDAF5 /* Tree water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tree water.png"; sourceTree = "<group>"; };
+		C2E565EC206B258C006DDAF5 /* Next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Next.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2C5C54B2061A81A008DE5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20011D220643E4800A41632 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C20011D320643E5900A41632 /* Layer */,
+				C2C5C56C2061A8CB008DE5D7 /* Scenes */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C20011D320643E5900A41632 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				C21DA41820668D7000CC5F42 /* MainLayer.swift */,
+				C2DBE2ED206D723A0058053D /* InitialLayer.swift */,
+				C2E565DA206AB6B6006DDAF5 /* Photosynthesis */,
+				C2DBE2E0206C3A770058053D /* FinalLayer.swift */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		C21DA40C20667BC000CC5F42 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C2C5C58B20633298008DE5D7 /* PhaseContainer.swift */,
+				C2DBE2E4206C69620058053D /* Photosynthesis */,
+				C2DBE2E2206C693D0058053D /* FinalStageContainer.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		C21DA40D20667BD400CC5F42 /* LightPhase */ = {
+			isa = PBXGroup;
+			children = (
+				C295A28F2065B41600F16ECA /* Ocean.swift */,
+				C21DA40E20667C0E00CC5F42 /* WateringCan.swift */,
+			);
+			path = LightPhase;
+			sourceTree = "<group>";
+		};
+		C295A2932065B5A500F16ECA /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				C2C5C58720632904008DE5D7 /* Sun.swift */,
+				C295A28D2065ADC000F16ECA /* Tree.swift */,
+				C295A2912065B48600F16ECA /* Background.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		C2C5C5452061A81A008DE5D7 = {
+			isa = PBXGroup;
+			children = (
+				C2C5C5502061A81A008DE5D7 /* WWDC18 */,
+				C2C5C54F2061A81A008DE5D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2C5C54F2061A81A008DE5D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2C5C54E2061A81A008DE5D7 /* WWDC18.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2C5C5502061A81A008DE5D7 /* WWDC18 */ = {
+			isa = PBXGroup;
+			children = (
+				C20011D220643E4800A41632 /* Core */,
+				C2C5C56B2061A8B6008DE5D7 /* Objects */,
+				C2C5C56D2061A8DE008DE5D7 /* Util */,
+				C2C5C56E2061A8FE008DE5D7 /* Resources */,
+				C2C5C5592061A81A008DE5D7 /* GameViewController.swift */,
+				C20011CA20642BC700A41632 /* AppDelegate.swift */,
+				C2C5C55B2061A81A008DE5D7 /* Main.storyboard */,
+				C2C5C5632061A81A008DE5D7 /* Info.plist */,
+			);
+			path = WWDC18;
+			sourceTree = "<group>";
+		};
+		C2C5C56B2061A8B6008DE5D7 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C2C5C58320632434008DE5D7 /* GameObject.swift */,
+				C2E565C32068895C006DDAF5 /* Chemical elements */,
+				C295A2932065B5A500F16ECA /* Background */,
+				C2C5C58F20634FB5008DE5D7 /* Photosynthesis Phases */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		C2C5C56C2061A8CB008DE5D7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C2C5C57F20632058008DE5D7 /* MainScene.swift */,
+				C2DBE2F1206D85390058053D /* InitialScene.swift */,
+				C2E565DD206ADF90006DDAF5 /* Photosynthesis */,
+				C2DBE2DE206C3A350058053D /* FinalScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C2C5C56D2061A8DE008DE5D7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				C242F4DD206EEC1200AE43D5 /* Sparkling.sks */,
+				C2C5C5902063513C008DE5D7 /* MessagesValues.swift */,
+				C2C5C581206320D4008DE5D7 /* Constants.swift */,
+				C2C5C585206326AB008DE5D7 /* Protocols.swift */,
+				C2E3C33C206EF01400152362 /* AudioManager.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		C2C5C56E2061A8FE008DE5D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2A7ABDE2073C88300CAE077 /* Assets.xcassets */,
+				C2578F60206E9481008E155A /* BackgroundMusic.m4a */,
+				C2DBE2F3206D8A8B0058053D /* Drawings stages */,
+				C2BF0BC8206C030D0034C1F6 /* Cloud.png */,
+				C2E565EC206B258C006DDAF5 /* Next.png */,
+				C2E565D22069F264006DDAF5 /* LeaveScene.png */,
+				C2C5C5722061A978008DE5D7 /* other elements */,
+				C2C5C5712061A92F008DE5D7 /* main scenario */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C2C5C5712061A92F008DE5D7 /* main scenario */ = {
+			isa = PBXGroup;
+			children = (
+				C242F4CF206EE4C400AE43D5 /* Apple tree.png */,
+				C25B720C20656B440084E156 /* Fish.png */,
+				C2DBE2F4206D8D010058053D /* Background - Initial.png */,
+				C2DBE2EB206D6E210058053D /* Fish2.png */,
+				C227099520670D38007A9A82 /* Tree.png */,
+				C2E565DB206AC5D8006DDAF5 /* Tree water.png */,
+				C25B720D20656B440084E156 /* Flower.png */,
+				C25B720A206450C50084E156 /* Background.png */,
+				C25B7208206450920084E156 /* Sun.png */,
+			);
+			path = "main scenario";
+			sourceTree = "<group>";
+		};
+		C2C5C5722061A978008DE5D7 /* other elements */ = {
+			isa = PBXGroup;
+			children = (
+				C2E565C020688946006DDAF5 /* CO2.png */,
+				C242F4D7206EE7C600AE43D5 /* Foton.png */,
+				C2E565BF20688946006DDAF5 /* O2.png */,
+				C2E565BA206888D9006DDAF5 /* H.png */,
+				C2E565B8206888D9006DDAF5 /* O.png */,
+				C227099A20670D85007A9A82 /* Watering can filled out.png */,
+				C25B720F20656B450084E156 /* Watering can.png */,
+			);
+			path = "other elements";
+			sourceTree = "<group>";
+		};
+		C2C5C58F20634FB5008DE5D7 /* Photosynthesis Phases */ = {
+			isa = PBXGroup;
+			children = (
+				C21DA40C20667BC000CC5F42 /* Message */,
+				C21DA40D20667BD400CC5F42 /* LightPhase */,
+			);
+			path = "Photosynthesis Phases";
+			sourceTree = "<group>";
+		};
+		C2DBE2E4206C69620058053D /* Photosynthesis */ = {
+			isa = PBXGroup;
+			children = (
+				C2C5C58D20634FA2008DE5D7 /* LightStageContainer.swift */,
+				C2BF0BC5206BD5C50034C1F6 /* DarkStageContainer.swift */,
+			);
+			path = Photosynthesis;
+			sourceTree = "<group>";
+		};
+		C2DBE2F3206D8A8B0058053D /* Drawings stages */ = {
+			isa = PBXGroup;
+			children = (
+				C2E565CE2069F158006DDAF5 /* PhotosynthesisDrawing.png */,
+				C2DBE2E9206C7D790058053D /* Process - light.png */,
+				C2BF0BC7206C030D0034C1F6 /* Process - dark.png */,
+				C2BF0BCD206C0AFB0034C1F6 /* Kelvin Cycle.png */,
+			);
+			path = "Drawings stages";
+			sourceTree = "<group>";
+		};
+		C2E565C32068895C006DDAF5 /* Chemical elements */ = {
+			isa = PBXGroup;
+			children = (
+				C2E565C4206889B4006DDAF5 /* CarbonDioxide.swift */,
+				C2E565C620688B8F006DDAF5 /* Foton.swift */,
+			);
+			path = "Chemical elements";
+			sourceTree = "<group>";
+		};
+		C2E565DA206AB6B6006DDAF5 /* Photosynthesis */ = {
+			isa = PBXGroup;
+			children = (
+				C20011D420643E7200A41632 /* LightStageLayer.swift */,
+				C2E565B120688752006DDAF5 /* WaterMolecule.swift */,
+				C2E565D8206AB50C006DDAF5 /* DarkStageLayer.swift */,
+			);
+			path = Photosynthesis;
+			sourceTree = "<group>";
+		};
+		C2E565DD206ADF90006DDAF5 /* Photosynthesis */ = {
+			isa = PBXGroup;
+			children = (
+				C25B7215206577FB0084E156 /* LightScene.swift */,
+				C2E565D6206AB4C5006DDAF5 /* DarkScene.swift */,
+			);
+			path = Photosynthesis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2C5C54D2061A81A008DE5D7 /* WWDC18 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C5C5662061A81A008DE5D7 /* Build configuration list for PBXNativeTarget "WWDC18" */;
+			buildPhases = (
+				C2C5C54A2061A81A008DE5D7 /* Sources */,
+				C2C5C54B2061A81A008DE5D7 /* Frameworks */,
+				C2C5C54C2061A81A008DE5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WWDC18;
+			productName = WWDC18;
+			productReference = C2C5C54E2061A81A008DE5D7 /* WWDC18.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2C5C5462061A81A008DE5D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Maisa Milena";
+				TargetAttributes = {
+					C2C5C54D2061A81A008DE5D7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C2C5C5492061A81A008DE5D7 /* Build configuration list for PBXProject "WWDC18" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2C5C5452061A81A008DE5D7;
+			productRefGroup = C2C5C54F2061A81A008DE5D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2C5C54D2061A81A008DE5D7 /* WWDC18 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2C5C54C2061A81A008DE5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E565ED206B258C006DDAF5 /* Next.png in Resources */,
+				C2E565BE206888D9006DDAF5 /* H.png in Resources */,
+				C25B721120656B450084E156 /* Flower.png in Resources */,
+				C2DBE2F5206D8D020058053D /* Background - Initial.png in Resources */,
+				C242F4D8206EE7C600AE43D5 /* Foton.png in Resources */,
+				C2E565CF2069F158006DDAF5 /* PhotosynthesisDrawing.png in Resources */,
+				C2E565C220688946006DDAF5 /* CO2.png in Resources */,
+				C25B7209206450920084E156 /* Sun.png in Resources */,
+				C25B720B206450C50084E156 /* Background.png in Resources */,
+				C2BF0BCB206C030E0034C1F6 /* Cloud.png in Resources */,
+				C25B721020656B450084E156 /* Fish.png in Resources */,
+				C242F4D0206EE4C400AE43D5 /* Apple tree.png in Resources */,
+				C2DBE2EA206C7D790058053D /* Process - light.png in Resources */,
+				C242F4DE206EEC1200AE43D5 /* Sparkling.sks in Resources */,
+				C2DBE2EC206D6E220058053D /* Fish2.png in Resources */,
+				C2E565D32069F264006DDAF5 /* LeaveScene.png in Resources */,
+				C2E565C120688946006DDAF5 /* O2.png in Resources */,
+				C2BF0BCE206C0AFB0034C1F6 /* Kelvin Cycle.png in Resources */,
+				C227099720670D38007A9A82 /* Tree.png in Resources */,
+				C242F4C2206EB7DF00AE43D5 /* BackgroundMusic.m4a in Resources */,
+				C227099B20670D86007A9A82 /* Watering can filled out.png in Resources */,
+				C2E565DC206AC5D9006DDAF5 /* Tree water.png in Resources */,
+				C25B721320656B450084E156 /* Watering can.png in Resources */,
+				C2E565BC206888D9006DDAF5 /* O.png in Resources */,
+				C2C5C55D2061A81A008DE5D7 /* Main.storyboard in Resources */,
+				C2A7ABDF2073C88300CAE077 /* Assets.xcassets in Resources */,
+				C2BF0BCA206C030E0034C1F6 /* Process - dark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C5C54A2061A81A008DE5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E565D7206AB4C5006DDAF5 /* DarkScene.swift in Sources */,
+				C21DA41920668D7000CC5F42 /* MainLayer.swift in Sources */,
+				C2DBE2E3206C693D0058053D /* FinalStageContainer.swift in Sources */,
+				C20011CB20642BC700A41632 /* AppDelegate.swift in Sources */,
+				C2C5C58020632058008DE5D7 /* MainScene.swift in Sources */,
+				C2E565B220688752006DDAF5 /* WaterMolecule.swift in Sources */,
+				C2C5C5912063513C008DE5D7 /* MessagesValues.swift in Sources */,
+				C2C5C586206326AB008DE5D7 /* Protocols.swift in Sources */,
+				C2DBE2EE206D723A0058053D /* InitialLayer.swift in Sources */,
+				C2E565C720688B8F006DDAF5 /* Foton.swift in Sources */,
+				C2C5C58C20633298008DE5D7 /* PhaseContainer.swift in Sources */,
+				C2E565D9206AB50C006DDAF5 /* DarkStageLayer.swift in Sources */,
+				C2E565C5206889B4006DDAF5 /* CarbonDioxide.swift in Sources */,
+				C2C5C58820632904008DE5D7 /* Sun.swift in Sources */,
+				C2E3C33D206EF01400152362 /* AudioManager.swift in Sources */,
+				C2C5C55A2061A81A008DE5D7 /* GameViewController.swift in Sources */,
+				C2DBE2E1206C3A770058053D /* FinalLayer.swift in Sources */,
+				C2DBE2DF206C3A350058053D /* FinalScene.swift in Sources */,
+				C2DBE2F2206D85390058053D /* InitialScene.swift in Sources */,
+				C295A2902065B41600F16ECA /* Ocean.swift in Sources */,
+				C21DA40F20667C0E00CC5F42 /* WateringCan.swift in Sources */,
+				C295A28E2065ADC000F16ECA /* Tree.swift in Sources */,
+				C2BF0BC6206BD5C50034C1F6 /* DarkStageContainer.swift in Sources */,
+				C2C5C582206320D4008DE5D7 /* Constants.swift in Sources */,
+				C20011D520643E7200A41632 /* LightStageLayer.swift in Sources */,
+				C295A2922065B48600F16ECA /* Background.swift in Sources */,
+				C2C5C58420632434008DE5D7 /* GameObject.swift in Sources */,
+				C25B7216206577FB0084E156 /* LightScene.swift in Sources */,
+				C2C5C58E20634FA2008DE5D7 /* LightStageContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2C5C55B2061A81A008DE5D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2C5C55C2061A81A008DE5D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2C5C5642061A81A008DE5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2C5C5652061A81A008DE5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2C5C5672061A81A008DE5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B33RKQE9R2;
+				INFOPLIST_FILE = WWDC18/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maisamilena.WWDC18;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2C5C5682061A81A008DE5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B33RKQE9R2;
+				INFOPLIST_FILE = WWDC18/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maisamilena.WWDC18;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2C5C5492061A81A008DE5D7 /* Build configuration list for PBXProject "WWDC18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C5C5642061A81A008DE5D7 /* Debug */,
+				C2C5C5652061A81A008DE5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C5C5662061A81A008DE5D7 /* Build configuration list for PBXNativeTarget "WWDC18" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C5C5672061A81A008DE5D7 /* Debug */,
+				C2C5C5682061A81A008DE5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2C5C5462061A81A008DE5D7 /* Project object */;
+}
